@@ -1,0 +1,21 @@
+.site-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-content {
+    display: flex;
+}
+
+.sidebar {
+    background-color:antiquewhite;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+.main-content {
+    background-color: peachpuff;
+    flex-grow: 1;
+}
